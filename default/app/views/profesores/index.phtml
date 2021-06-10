@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col s6">
+        <?php echo Html::img('react1.png','REACT', 'class="responsive-img"')  ?>
+    </div>
+    <div class="col s6">
+        <?php  
+        
+        $opciones = array(
+            'Masculino'=>'M',
+            'Femenino'=>'F'
+        );
+        echo Html::lists($opciones, $type = 'ol')
+
+        ?>
+    </div>
+</div>

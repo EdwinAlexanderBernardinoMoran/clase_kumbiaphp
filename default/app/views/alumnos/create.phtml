@@ -1,0 +1,27 @@
+<?php
+    View::content();
+
+ ?>
+
+ <h3>Agregar alumnnos</h3>
+
+ <?php 
+ 
+ echo Form::open();
+
+ ?>
+    <label>Nombres
+    <?php echo Form::text('alumnos.nombres')?></label>
+
+    <label>Apellidos
+    <?php echo Form::text('alumnos.apellidos') ?></label>
+
+    <label>Edad
+    <?php echo Form::text('alumnos.edad') ?></label>
+
+    <label>titulo
+    <?php echo Form::text('alumnos.telefono') ?></label>
+
+    <?php echo Form::submit('Agregar.')?>
+
+<?php echo Form::close() ?>
